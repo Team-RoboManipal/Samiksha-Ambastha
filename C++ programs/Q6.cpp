@@ -58,9 +58,9 @@ int search(int arr[],int key,int n)
     low=mid+1;
 
    }while(key!=arr[mid]&&low<=high);
-    if(key==mid)
+    if(key==arr[mid])
       {
-       cout<<"number found at "<<i+1;
+       cout<<"number found at "<<mid+1<<'\n';
       }
     for(int i=0;i<n;i++)
       {
