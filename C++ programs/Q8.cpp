@@ -29,7 +29,7 @@ void transpose(int arr[][100],int transposed[][100],int rows,int cols)
  {
     for(j=0;j<cols;j++)
     {
-        arr[i][j]=arr[j][i];
+        transposed[i][j]=arr[j][i];
     }
  }
 }
@@ -76,17 +76,26 @@ int main()
         }
     }
     multiplication(a,b,matrix,rows1,cols1,rows2,cols2);
+    std::cout<<"matrix after multiplication(AB)= ";
     printmatrix(matrix,rows1,cols2);
-    transpose(a,transposedA,rows1,cols1);
-    transpose(a,transposedB,rows1,cols1);
-    printmatrix(transposedA,cols1,rows1);
-    printmatrix(transposedB,cols2,rows2);
     transpose(matrix,result,rows1,cols2);
+    std::cout<<"transpose of a and b[(AB)']= ";
     printmatrix(result,cols2,rows1);
+
+    transpose(a,transposedA,rows1,cols1);
+   
+    std::cout<<"transpose of a (A)'= ";
+    printmatrix(transposedA,cols1,rows1);
+    transpose(b,transposedB,rows1,cols1);
+     std::cout<<"transpose of b (B)'= ";
+    printmatrix(transposedB,cols2,rows2);
+   
     int transposedmultiplication[100][100];
     multiplication(transposedB,transposedA,transposedmultiplication,cols2,rows2,cols1,rows1);
+    std::cout<<"multiplication of transpose (A' B')= ";
     printmatrix(transposedmultiplication,cols2,rows1);
 
 
 
 }
+
