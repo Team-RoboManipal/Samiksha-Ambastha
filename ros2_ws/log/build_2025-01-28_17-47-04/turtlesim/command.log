@@ -1,0 +1,1 @@
+Invoking command in '/home/samiksha/ros2_ws/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samiksha/ros2_ws/install/task_controller:/opt/ros/humble /usr/bin/cmake /home/samiksha/ros2_ws/src/ros_tutorials/turtlesim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/samiksha/ros2_ws/install/turtlesim

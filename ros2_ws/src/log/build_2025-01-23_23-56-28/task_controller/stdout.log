@@ -1,0 +1,25 @@
+running egg_info
+creating ../build/task_controller/task_controller.egg-info
+writing manifest file '../build/task_controller/task_controller.egg-info/SOURCES.txt'
+writing manifest file '../build/task_controller/task_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/samiksha/ros2_ws/src/build/task_controller/build
+creating /home/samiksha/ros2_ws/src/build/task_controller/build/lib
+creating /home/samiksha/ros2_ws/src/build/task_controller/build/lib/task_controller
+copying task_controller/__init__.py -> /home/samiksha/ros2_ws/src/build/task_controller/build/lib/task_controller
+running install
+running install_lib
+creating /home/samiksha/ros2_ws/src/install/task_controller/lib/python3.10/site-packages/task_controller
+copying /home/samiksha/ros2_ws/src/build/task_controller/build/lib/task_controller/__init__.py -> /home/samiksha/ros2_ws/src/install/task_controller/lib/python3.10/site-packages/task_controller
+byte-compiling /home/samiksha/ros2_ws/src/install/task_controller/lib/python3.10/site-packages/task_controller/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/samiksha/ros2_ws/src/install/task_controller/share/ament_index
+creating /home/samiksha/ros2_ws/src/install/task_controller/share/ament_index/resource_index
+creating /home/samiksha/ros2_ws/src/install/task_controller/share/ament_index/resource_index/packages
+copying resource/task_controller -> /home/samiksha/ros2_ws/src/install/task_controller/share/ament_index/resource_index/packages
+copying package.xml -> /home/samiksha/ros2_ws/src/install/task_controller/share/task_controller
+running install_egg_info
+Copying ../build/task_controller/task_controller.egg-info to /home/samiksha/ros2_ws/src/install/task_controller/lib/python3.10/site-packages/task_controller-60.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/samiksha/ros2_ws/src/build/task_controller/install.log'

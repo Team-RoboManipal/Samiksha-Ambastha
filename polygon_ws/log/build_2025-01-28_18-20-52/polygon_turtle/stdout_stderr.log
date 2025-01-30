@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/polygon_turtle/polygon_turtle.egg-info
+writing manifest file '../../build/polygon_turtle/polygon_turtle.egg-info/SOURCES.txt'
+writing manifest file '../../build/polygon_turtle/polygon_turtle.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/samiksha/polygon_ws/build/polygon_turtle/build
+creating /home/samiksha/polygon_ws/build/polygon_turtle/build/lib
+creating /home/samiksha/polygon_ws/build/polygon_turtle/build/lib/polygon_turtle
+copying polygon_turtle/polygon_service_server.py -> /home/samiksha/polygon_ws/build/polygon_turtle/build/lib/polygon_turtle
+copying polygon_turtle/polygon_service_client.py -> /home/samiksha/polygon_ws/build/polygon_turtle/build/lib/polygon_turtle
+copying polygon_turtle/__init__.py -> /home/samiksha/polygon_ws/build/polygon_turtle/build/lib/polygon_turtle
+running install
+running install_lib
+creating /home/samiksha/polygon_ws/install/polygon_turtle/lib/python3.10/site-packages/polygon_turtle
+copying /home/samiksha/polygon_ws/build/polygon_turtle/build/lib/polygon_turtle/polygon_service_server.py -> /home/samiksha/polygon_ws/install/polygon_turtle/lib/python3.10/site-packages/polygon_turtle
+copying /home/samiksha/polygon_ws/build/polygon_turtle/build/lib/polygon_turtle/polygon_service_client.py -> /home/samiksha/polygon_ws/install/polygon_turtle/lib/python3.10/site-packages/polygon_turtle
+copying /home/samiksha/polygon_ws/build/polygon_turtle/build/lib/polygon_turtle/__init__.py -> /home/samiksha/polygon_ws/install/polygon_turtle/lib/python3.10/site-packages/polygon_turtle
+byte-compiling /home/samiksha/polygon_ws/install/polygon_turtle/lib/python3.10/site-packages/polygon_turtle/polygon_service_server.py to polygon_service_server.cpython-310.pyc
+byte-compiling /home/samiksha/polygon_ws/install/polygon_turtle/lib/python3.10/site-packages/polygon_turtle/polygon_service_client.py to polygon_service_client.cpython-310.pyc
+byte-compiling /home/samiksha/polygon_ws/install/polygon_turtle/lib/python3.10/site-packages/polygon_turtle/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/samiksha/polygon_ws/install/polygon_turtle/share/ament_index
+creating /home/samiksha/polygon_ws/install/polygon_turtle/share/ament_index/resource_index
+creating /home/samiksha/polygon_ws/install/polygon_turtle/share/ament_index/resource_index/packages
+copying resource/polygon_turtle -> /home/samiksha/polygon_ws/install/polygon_turtle/share/ament_index/resource_index/packages
+copying package.xml -> /home/samiksha/polygon_ws/install/polygon_turtle/share/polygon_turtle
+running install_egg_info
+Copying ../../build/polygon_turtle/polygon_turtle.egg-info to /home/samiksha/polygon_ws/install/polygon_turtle/lib/python3.10/site-packages/polygon_turtle-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/samiksha/polygon_ws/build/polygon_turtle/install.log'

@@ -1,0 +1,14 @@
+[0.789s] Invoking command in '/home/samiksha/ros2_ws/src/task_controller': PYTHONPATH=/home/samiksha/ros2_ws/build/task_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/samiksha/ros2_ws/install/task_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/task_controller build --build-base /home/samiksha/ros2_ws/build/task_controller/build install --record /home/samiksha/ros2_ws/build/task_controller/install.log --single-version-externally-managed install_data
+[1.006s] running egg_info
+[1.011s] writing manifest file '../../build/task_controller/task_controller.egg-info/SOURCES.txt'
+[1.011s] running build
+[1.011s] running build_py
+[1.011s] running install
+[1.013s] running install_lib
+[1.014s] running install_data
+[1.014s] running install_egg_info
+[1.016s] removing '/home/samiksha/ros2_ws/install/task_controller/lib/python3.10/site-packages/task_controller-60.0.0-py3.10.egg-info' (and everything under it)
+[1.016s] Copying ../../build/task_controller/task_controller.egg-info to /home/samiksha/ros2_ws/install/task_controller/lib/python3.10/site-packages/task_controller-60.0.0-py3.10.egg-info
+[1.017s] running install_scripts
+[1.037s] writing list of installed files to '/home/samiksha/ros2_ws/build/task_controller/install.log'
+[1.067s] Invoked command in '/home/samiksha/ros2_ws/src/task_controller' returned '0': PYTHONPATH=/home/samiksha/ros2_ws/build/task_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/samiksha/ros2_ws/install/task_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/task_controller build --build-base /home/samiksha/ros2_ws/build/task_controller/build install --record /home/samiksha/ros2_ws/build/task_controller/install.log --single-version-externally-managed install_data

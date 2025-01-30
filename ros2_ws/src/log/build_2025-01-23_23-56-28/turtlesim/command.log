@@ -1,0 +1,6 @@
+Invoking command in '/home/samiksha/ros2_ws/src/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/samiksha/ros2_ws/src/ros_tutorials/turtlesim -DCMAKE_INSTALL_PREFIX=/home/samiksha/ros2_ws/src/install/turtlesim
+Invoked command in '/home/samiksha/ros2_ws/src/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/samiksha/ros2_ws/src/ros_tutorials/turtlesim -DCMAKE_INSTALL_PREFIX=/home/samiksha/ros2_ws/src/install/turtlesim
+Invoking command in '/home/samiksha/ros2_ws/src/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/samiksha/ros2_ws/src/build/turtlesim -- -j12 -l12
+Invoked command in '/home/samiksha/ros2_ws/src/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/samiksha/ros2_ws/src/build/turtlesim -- -j12 -l12
+Invoking command in '/home/samiksha/ros2_ws/src/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/samiksha/ros2_ws/src/build/turtlesim
+Invoked command in '/home/samiksha/ros2_ws/src/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/samiksha/ros2_ws/src/build/turtlesim

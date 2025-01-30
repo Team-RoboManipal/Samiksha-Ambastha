@@ -1,0 +1,233 @@
+[0.012s] Invoking command in '/home/samiksha/ros2_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samiksha/ros2_ws/install/task_controller:/opt/ros/humble /usr/bin/cmake /home/samiksha/ros2_ws/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/samiksha/ros2_ws/install/custom_interfaces
+[0.186s] -- The C compiler identification is GNU 11.4.0
+[0.187s] -- The CXX compiler identification is GNU 11.4.0
+[0.187s] -- Detecting C compiler ABI info
+[0.187s] -- Detecting C compiler ABI info - done
+[0.187s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.187s] -- Detecting C compile features
+[0.187s] -- Detecting C compile features - done
+[0.187s] -- Detecting CXX compiler ABI info
+[0.221s] -- Detecting CXX compiler ABI info - done
+[0.227s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.227s] -- Detecting CXX compile features
+[0.227s] -- Detecting CXX compile features - done
+[0.229s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.690s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.763s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.790s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.796s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.804s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.818s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.829s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.855s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.154s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.563s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.749s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.780s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.782s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.824s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.824s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.824s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.824s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.855s] -- Found PythonExtra: .so  
+[1.920s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.940s] -- Added test 'lint_cmake' to check CMake code style
+[1.941s] -- Added test 'xmllint' to check XML markup files
+[1.944s] -- Configuring done
+[1.982s] -- Generating done
+[1.995s] -- Build files have been written to: /home/samiksha/ros2_ws/build/custom_interfaces
+[2.006s] Invoked command in '/home/samiksha/ros2_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samiksha/ros2_ws/install/task_controller:/opt/ros/humble /usr/bin/cmake /home/samiksha/ros2_ws/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/samiksha/ros2_ws/install/custom_interfaces
+[2.007s] Invoking command in '/home/samiksha/ros2_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samiksha/ros2_ws/install/task_controller:/opt/ros/humble /usr/bin/cmake --build /home/samiksha/ros2_ws/build/custom_interfaces -- -j12 -l12
+[2.056s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.067s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.079s] [  6%] Built target ament_cmake_python_copy_custom_interfaces
+[2.331s] [  6%] Built target custom_interfaces__cpp
+[2.344s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.344s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.344s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.454s] running egg_info
+[2.454s] creating custom_interfaces.egg-info
+[2.455s] writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[2.459s] writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[2.500s] [ 16%] Built target ament_cmake_python_build_custom_interfaces_egg
+[2.516s] [ 19%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/srv/detail/polygon_server__functions.c.o[0m
+[2.585s] [ 22%] [32m[1mLinking C shared library libcustom_interfaces__rosidl_generator_c.so[0m
+[2.643s] [ 22%] Built target custom_interfaces__rosidl_generator_c
+[2.670s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.670s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.679s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.746s] [ 35%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/srv/polygon_server__type_support.cpp.o[0m
+[2.762s] [ 38%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/srv/detail/polygon_server__type_support.cpp.o[0m
+[2.781s] [ 41%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/srv/detail/dds_fastrtps/polygon_server__type_support.cpp.o[0m
+[3.000s] [ 45%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/srv/polygon_server__type_support.cpp.o[0m
+[3.043s] [ 48%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_c.so[0m
+[3.110s] [ 48%] Built target custom_interfaces__rosidl_typesupport_c
+[3.111s] [ 51%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_cpp.so[0m
+[3.129s] [ 54%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/srv/detail/polygon_server__type_support.c.o[0m
+[3.178s] [ 54%] Built target custom_interfaces__rosidl_typesupport_cpp
+[3.178s] [ 58%] [32m[1mLinking C shared library libcustom_interfaces__rosidl_typesupport_introspection_c.so[0m
+[3.216s] [ 58%] Built target custom_interfaces__rosidl_typesupport_introspection_c
+[3.233s] [ 61%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/srv/detail/polygon_server__type_support_c.cpp.o[0m
+[3.240s] [ 64%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[3.274s] [ 67%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.327s] [ 67%] Built target custom_interfaces__rosidl_typesupport_introspection_cpp
+[3.383s] [ 67%] Built target custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[3.706s] [ 70%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[3.805s] [ 70%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c
+[3.828s] [ 70%] Built target custom_interfaces
+[3.852s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.429s] [ 74%] Built target custom_interfaces__py
+[4.457s] [ 77%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces/srv/_polygon_server_s.c.o[0m
+[4.624s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/libcustom_interfaces__rosidl_generator_py.so[0m
+[4.677s] [ 80%] Built target custom_interfaces__rosidl_generator_py
+[4.703s] [ 87%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.704s] [ 87%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.722s] [ 90%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[4.828s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.845s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.874s] [ 96%] Built target custom_interfaces__rosidl_typesupport_introspection_c__pyext
+[4.888s] [ 96%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[4.932s] [100%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.975s] [100%] Built target custom_interfaces__rosidl_typesupport_c__pyext
+[4.993s] Invoked command in '/home/samiksha/ros2_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samiksha/ros2_ws/install/task_controller:/opt/ros/humble /usr/bin/cmake --build /home/samiksha/ros2_ws/build/custom_interfaces -- -j12 -l12
+[5.004s] Invoking command in '/home/samiksha/ros2_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samiksha/ros2_ws/install/task_controller:/opt/ros/humble /usr/bin/cmake --install /home/samiksha/ros2_ws/build/custom_interfaces
+[5.013s] -- Install configuration: ""
+[5.013s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/custom_interfaces
+[5.013s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[5.013s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[5.013s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_generator_c__visibility_control.h
+[5.014s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[5.014s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[5.014s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/polygon_server__type_support.h
+[5.014s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/polygon_server__functions.c
+[5.015s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/polygon_server__struct.h
+[5.016s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/polygon_server__functions.h
+[5.016s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/polygon_server.h
+[5.016s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/library_path.sh
+[5.016s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/library_path.dsv
+[5.016s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so
+[5.016s] -- Set runtime path of "/home/samiksha/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so" to ""
+[5.016s] -- Up-to-date: /home/samiksha/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[5.016s] -- Up-to-date: /home/samiksha/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[5.017s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.017s] -- Up-to-date: /home/samiksha/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[5.017s] -- Up-to-date: /home/samiksha/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[5.017s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/polygon_server__rosidl_typesupport_fastrtps_c.h
+[5.017s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so
+[5.018s] -- Set runtime path of "/home/samiksha/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[5.018s] -- Up-to-date: /home/samiksha/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[5.018s] -- Up-to-date: /home/samiksha/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[5.018s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.018s] -- Up-to-date: /home/samiksha/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[5.019s] -- Up-to-date: /home/samiksha/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[5.019s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/polygon_server__builder.hpp
+[5.019s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/polygon_server__struct.hpp
+[5.019s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/polygon_server__type_support.hpp
+[5.019s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/polygon_server__traits.hpp
+[5.019s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/polygon_server.hpp
+[5.019s] -- Up-to-date: /home/samiksha/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[5.019s] -- Up-to-date: /home/samiksha/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[5.019s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.019s] -- Up-to-date: /home/samiksha/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[5.019s] -- Up-to-date: /home/samiksha/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[5.019s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/polygon_server__rosidl_typesupport_fastrtps_cpp.hpp
+[5.019s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/dds_fastrtps
+[5.019s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[5.019s] -- Set runtime path of "/home/samiksha/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.019s] -- Up-to-date: /home/samiksha/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[5.019s] -- Up-to-date: /home/samiksha/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[5.019s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.020s] -- Up-to-date: /home/samiksha/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[5.020s] -- Up-to-date: /home/samiksha/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[5.020s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/polygon_server__rosidl_typesupport_introspection_c.h
+[5.020s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/polygon_server__type_support.c
+[5.020s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so
+[5.020s] -- Set runtime path of "/home/samiksha/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[5.020s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so
+[5.029s] -- Set runtime path of "/home/samiksha/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so" to ""
+[5.029s] -- Up-to-date: /home/samiksha/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[5.029s] -- Up-to-date: /home/samiksha/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[5.029s] -- Up-to-date: /home/samiksha/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[5.029s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/polygon_server__rosidl_typesupport_introspection_cpp.hpp
+[5.029s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/polygon_server__type_support.cpp
+[5.029s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so
+[5.029s] -- Set runtime path of "/home/samiksha/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[5.029s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so
+[5.029s] -- Set runtime path of "/home/samiksha/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so" to ""
+[5.029s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.sh
+[5.029s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.dsv
+[5.029s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info
+[5.029s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[5.030s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[5.030s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[5.030s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[5.030s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces
+[5.030s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/libcustom_interfaces__rosidl_generator_py.so
+[5.030s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[5.030s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.030s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.030s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c
+[5.030s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv
+[5.030s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_polygon_server.py
+[5.030s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_polygon_server_s.c
+[5.030s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/__init__.py
+[5.030s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/__init__.py
+[5.030s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.030s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.076s] Listing '/home/samiksha/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces'...
+[5.076s] Compiling '/home/samiksha/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/__init__.py'...
+[5.076s] Listing '/home/samiksha/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv'...
+[5.076s] Compiling '/home/samiksha/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/__init__.py'...
+[5.076s] Compiling '/home/samiksha/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_polygon_server.py'...
+[5.090s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.091s] -- Set runtime path of "/home/samiksha/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.091s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.091s] -- Set runtime path of "/home/samiksha/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.091s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.091s] -- Set runtime path of "/home/samiksha/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.091s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so
+[5.091s] -- Set runtime path of "/home/samiksha/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so" to ""
+[5.091s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/PolygonServer.idl
+[5.091s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/PolygonServer.srv
+[5.091s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/PolygonServer_Request.msg
+[5.091s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/PolygonServer_Response.msg
+[5.091s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/share/ament_index/resource_index/package_run_dependencies/custom_interfaces
+[5.091s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/share/ament_index/resource_index/parent_prefix_path/custom_interfaces
+[5.091s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.sh
+[5.091s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.dsv
+[5.091s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/path.sh
+[5.092s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/path.dsv
+[5.092s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.bash
+[5.092s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.sh
+[5.092s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.zsh
+[5.092s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.dsv
+[5.092s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/share/custom_interfaces/package.dsv
+[5.092s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/share/ament_index/resource_index/packages/custom_interfaces
+[5.092s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport.cmake
+[5.092s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport-noconfig.cmake
+[5.092s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[5.092s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.092s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cppExport.cmake
+[5.092s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.093s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.093s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[5.093s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.098s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport.cmake
+[5.098s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[5.098s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[5.098s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.098s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport.cmake
+[5.098s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[5.098s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport.cmake
+[5.098s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[5.098s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake-extras.cmake
+[5.099s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.099s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.099s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[5.099s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[5.099s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.099s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.099s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig.cmake
+[5.099s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig-version.cmake
+[5.099s] -- Installing: /home/samiksha/ros2_ws/install/custom_interfaces/share/custom_interfaces/package.xml
+[5.107s] Invoked command in '/home/samiksha/ros2_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samiksha/ros2_ws/install/task_controller:/opt/ros/humble /usr/bin/cmake --install /home/samiksha/ros2_ws/build/custom_interfaces
