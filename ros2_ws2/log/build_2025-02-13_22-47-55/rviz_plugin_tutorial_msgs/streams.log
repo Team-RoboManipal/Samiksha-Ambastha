@@ -1,0 +1,22 @@
+[0.708s] Invoking command in '/home/samiksha/ros2_ws2/build/rviz_plugin_tutorial_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samiksha/ros2_ws/install/task_controller:/home/samiksha/ros2_ws2/install/robo_descp:/home/samiksha/ros2_ws2/install/learning_tf2_py:/home/samiksha/ros2_ws2/install/launch_tutorial:/opt/ros/humble /usr/bin/cmake --build /home/samiksha/ros2_ws2/build/rviz_plugin_tutorial_msgs -- -j12 -l12
+[0.771s] [  1%] [34m[1mAutomatic MOC for target point_display[0m
+[0.771s] [  3%] [34m[1mAutomatic MOC for target rviz_plugin_tutorial_msgs__rosidl_generator_c[0m
+[0.771s] [  5%] Built target rviz_plugin_tutorial_msgs__cpp
+[0.783s] [  5%] Built target ament_cmake_python_copy_rviz_plugin_tutorial_msgs
+[0.796s] [  5%] Built target rviz_plugin_tutorial_msgs__rosidl_generator_c_autogen
+[0.796s] [  6%] [34m[1mAutomatic MOC for target rviz_plugin_tutorial_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[0.805s] [  8%] [34m[1mAutomatic MOC for target rviz_plugin_tutorial_msgs__rosidl_typesupport_introspection_cpp[0m
+[0.806s] [  8%] Built target point_display_autogen
+[0.811s] gmake[2]: *** No rule to make target '/home/samiksha/ros2_ws2/src/rviz_plugin_tutorial_msgs/include/rviz_plugin_tutorial/point_display.hpp', needed by 'include/rviz_plugin_tutorial/moc_point_display.cpp'.  Stop.
+[0.811s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/point_display.dir/all] Error 2
+[0.811s] gmake[1]: *** Waiting for unfinished jobs....
+[0.814s] [ 10%] [34m[1mAutomatic MOC for target rviz_plugin_tutorial_msgs__rosidl_typesupport_cpp[0m
+[0.826s] [ 16%] Built target rviz_plugin_tutorial_msgs__rosidl_generator_c
+[0.827s] [ 16%] Built target rviz_plugin_tutorial_msgs__rosidl_typesupport_fastrtps_cpp_autogen
+[0.830s] [ 16%] Built target rviz_plugin_tutorial_msgs__rosidl_typesupport_introspection_cpp_autogen
+[0.841s] [ 16%] Built target rviz_plugin_tutorial_msgs__rosidl_typesupport_cpp_autogen
+[1.176s] running egg_info
+[1.180s] writing manifest file 'rviz_plugin_tutorial_msgs.egg-info/SOURCES.txt'
+[1.210s] [ 16%] Built target ament_cmake_python_build_rviz_plugin_tutorial_msgs_egg
+[1.212s] gmake: *** [Makefile:146: all] Error 2
+[1.215s] Invoked command in '/home/samiksha/ros2_ws2/build/rviz_plugin_tutorial_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samiksha/ros2_ws/install/task_controller:/home/samiksha/ros2_ws2/install/robo_descp:/home/samiksha/ros2_ws2/install/learning_tf2_py:/home/samiksha/ros2_ws2/install/launch_tutorial:/opt/ros/humble /usr/bin/cmake --build /home/samiksha/ros2_ws2/build/rviz_plugin_tutorial_msgs -- -j12 -l12

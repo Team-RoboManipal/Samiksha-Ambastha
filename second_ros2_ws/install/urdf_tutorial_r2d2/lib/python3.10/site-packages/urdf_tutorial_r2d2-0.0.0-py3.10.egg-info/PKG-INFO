@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: urdf-tutorial-r2d2
+Version: 0.0.0
+Summary: A package to publish robot state in ROS 2 for the R2D2 robot simulation.
+Home-page: UNKNOWN
+Maintainer: samiksha
+Maintainer-email: samikshaambastha9308@gmail.com
+License: Apache-2.0
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+

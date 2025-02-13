@@ -1,0 +1,27 @@
+running egg_info
+creating ../../build/robo_descp/robo_descp.egg-info
+writing manifest file '../../build/robo_descp/robo_descp.egg-info/SOURCES.txt'
+writing manifest file '../../build/robo_descp/robo_descp.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/samiksha/ros2_ws2/build/robo_descp/build
+creating /home/samiksha/ros2_ws2/build/robo_descp/build/lib
+creating /home/samiksha/ros2_ws2/build/robo_descp/build/lib/robo_descp
+copying robo_descp/__init__.py -> /home/samiksha/ros2_ws2/build/robo_descp/build/lib/robo_descp
+running install
+running install_lib
+creating /home/samiksha/ros2_ws2/install/robo_descp/lib/python3.10/site-packages/robo_descp
+copying /home/samiksha/ros2_ws2/build/robo_descp/build/lib/robo_descp/__init__.py -> /home/samiksha/ros2_ws2/install/robo_descp/lib/python3.10/site-packages/robo_descp
+byte-compiling /home/samiksha/ros2_ws2/install/robo_descp/lib/python3.10/site-packages/robo_descp/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/samiksha/ros2_ws2/install/robo_descp/share/ament_index
+creating /home/samiksha/ros2_ws2/install/robo_descp/share/ament_index/resource_index
+creating /home/samiksha/ros2_ws2/install/robo_descp/share/ament_index/resource_index/packages
+copying resource/robo_descp -> /home/samiksha/ros2_ws2/install/robo_descp/share/ament_index/resource_index/packages
+copying package.xml -> /home/samiksha/ros2_ws2/install/robo_descp/share/robo_descp
+creating /home/samiksha/ros2_ws2/install/robo_descp/share/robo_descp/launch
+copying launch/my_script_launch.py -> /home/samiksha/ros2_ws2/install/robo_descp/share/robo_descp/launch
+running install_egg_info
+Copying ../../build/robo_descp/robo_descp.egg-info to /home/samiksha/ros2_ws2/install/robo_descp/lib/python3.10/site-packages/robo_descp-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/samiksha/ros2_ws2/build/robo_descp/install.log'

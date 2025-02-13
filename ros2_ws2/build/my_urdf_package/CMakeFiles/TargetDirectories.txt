@@ -1,0 +1,9 @@
+/home/samiksha/ros2_ws2/build/my_urdf_package/CMakeFiles/uninstall.dir
+/home/samiksha/ros2_ws2/build/my_urdf_package/CMakeFiles/my_urdf_package_uninstall.dir
+/home/samiksha/ros2_ws2/build/my_urdf_package/CMakeFiles/test.dir
+/home/samiksha/ros2_ws2/build/my_urdf_package/CMakeFiles/edit_cache.dir
+/home/samiksha/ros2_ws2/build/my_urdf_package/CMakeFiles/rebuild_cache.dir
+/home/samiksha/ros2_ws2/build/my_urdf_package/CMakeFiles/list_install_components.dir
+/home/samiksha/ros2_ws2/build/my_urdf_package/CMakeFiles/install.dir
+/home/samiksha/ros2_ws2/build/my_urdf_package/CMakeFiles/install/local.dir
+/home/samiksha/ros2_ws2/build/my_urdf_package/CMakeFiles/install/strip.dir

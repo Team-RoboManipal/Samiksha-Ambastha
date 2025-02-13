@@ -1,0 +1,2 @@
+Invoking command in '/home/samiksha/ros2_ws2/build/learning_tf2_cpp': /usr/bin/cmake --build /home/samiksha/ros2_ws2/build/learning_tf2_cpp -- -j12 -l12
+Invoked command in '/home/samiksha/ros2_ws2/build/learning_tf2_cpp' returned '2': /usr/bin/cmake --build /home/samiksha/ros2_ws2/build/learning_tf2_cpp -- -j12 -l12
