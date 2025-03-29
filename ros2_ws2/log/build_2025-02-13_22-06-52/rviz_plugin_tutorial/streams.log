@@ -1,5 +1,0 @@
-[0.526s] Invoking command in '/home/samiksha/ros2_ws2/build/rviz_plugin_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samiksha/ros2_ws/install/task_controller:/home/samiksha/ros2_ws2/install/robo_descp:/home/samiksha/ros2_ws2/install/learning_tf2_py:/home/samiksha/ros2_ws2/install/launch_tutorial:/opt/ros/humble /usr/bin/cmake --build /home/samiksha/ros2_ws2/build/rviz_plugin_tutorial -- -j12 -l12
-[0.544s] [0mCMake Error: The source directory "/home/samiksha/ros2_ws2/src/rviz_plugin_tutorial" does not exist.
-[0.545s] Specify --help for usage, or press the help button on the CMake GUI.[0m
-[0.546s] gmake: *** [Makefile:747: cmake_check_build_system] Error 1
-[0.572s] Invoked command in '/home/samiksha/ros2_ws2/build/rviz_plugin_tutorial' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samiksha/ros2_ws/install/task_controller:/home/samiksha/ros2_ws2/install/robo_descp:/home/samiksha/ros2_ws2/install/learning_tf2_py:/home/samiksha/ros2_ws2/install/launch_tutorial:/opt/ros/humble /usr/bin/cmake --build /home/samiksha/ros2_ws2/build/rviz_plugin_tutorial -- -j12 -l12

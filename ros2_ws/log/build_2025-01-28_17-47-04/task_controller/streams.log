@@ -1,9 +1,0 @@
-[0.436s] Invoking command in '/home/samiksha/ros2_ws/build/task_controller': PYTHONPATH=/home/samiksha/ros2_ws/build/task_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/samiksha/ros2_ws/install/task_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/samiksha/ros2_ws/build/task_controller/build --no-deps symlink_data --force
-[0.668s] running develop
-[0.775s] running egg_info
-[0.777s] writing manifest file 'task_controller.egg-info/SOURCES.txt'
-[0.778s] running build_ext
-[0.779s] running symlink_data
-[0.779s] symbolically linking /home/samiksha/ros2_ws/build/task_controller/resource/task_controller -> /home/samiksha/ros2_ws/install/task_controller/share/ament_index/resource_index/packages
-[0.779s] symbolically linking /home/samiksha/ros2_ws/build/task_controller/package.xml -> /home/samiksha/ros2_ws/install/task_controller/share/task_controller
-[0.805s] Invoked command in '/home/samiksha/ros2_ws/build/task_controller' returned '0': PYTHONPATH=/home/samiksha/ros2_ws/build/task_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/samiksha/ros2_ws/install/task_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/samiksha/ros2_ws/build/task_controller/build --no-deps symlink_data --force

@@ -1,6 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000390] (-) JobUnselected: {'identifier': 'my_package'}
-[0.000427] (-) JobUnselected: {'identifier': 'my_package'}
-[0.000504] (-) JobUnselected: {'identifier': 'task_controller'}
-[0.000570] (-) JobUnselected: {'identifier': 'turtlesim'}
-[0.000592] (-) EventReactorShutdown: {}

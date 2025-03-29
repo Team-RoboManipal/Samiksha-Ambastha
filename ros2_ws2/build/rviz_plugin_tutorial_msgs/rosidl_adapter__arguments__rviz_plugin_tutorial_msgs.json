@@ -1,6 +1,0 @@
-{
-  "package_name": "rviz_plugin_tutorial_msgs",
-  "non_idl_tuples": [
-    "/home/samiksha/ros2_ws2/src/rviz_plugin_tutorial_msgs:msg/Point2D.msg"
-  ]
-}
