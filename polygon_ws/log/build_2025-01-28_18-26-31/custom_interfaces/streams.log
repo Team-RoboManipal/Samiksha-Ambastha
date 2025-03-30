@@ -1,0 +1,220 @@
+[0.008s] Invoking command in '/home/samiksha/polygon_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samiksha/ros2_ws/install/task_controller:/opt/ros/humble /usr/bin/cmake /home/samiksha/polygon_ws/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/samiksha/polygon_ws/install/custom_interfaces
+[0.018s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.115s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.129s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.130s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.134s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.139s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.146s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.167s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.352s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.634s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.751s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.767s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[0.768s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.791s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[0.791s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.791s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.791s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.807s] -- Found PythonExtra: .so  
+[0.842s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.851s] -- Added test 'lint_cmake' to check CMake code style
+[0.852s] -- Added test 'xmllint' to check XML markup files
+[0.853s] -- Configuring done
+[0.868s] -- Generating done
+[0.874s] -- Build files have been written to: /home/samiksha/polygon_ws/build/custom_interfaces
+[0.879s] Invoked command in '/home/samiksha/polygon_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samiksha/ros2_ws/install/task_controller:/opt/ros/humble /usr/bin/cmake /home/samiksha/polygon_ws/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/samiksha/polygon_ws/install/custom_interfaces
+[0.880s] Invoking command in '/home/samiksha/polygon_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samiksha/ros2_ws/install/task_controller:/opt/ros/humble /usr/bin/cmake --build /home/samiksha/polygon_ws/build/custom_interfaces -- -j12 -l12
+[0.910s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.919s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.924s] [  6%] Built target ament_cmake_python_copy_custom_interfaces
+[1.092s] running egg_info
+[1.092s] creating custom_interfaces.egg-info
+[1.093s] writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[1.095s] writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[1.105s] [  9%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/srv/detail/polygon_server__functions.c.o[0m
+[1.105s] [  9%] Built target custom_interfaces__cpp
+[1.112s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.114s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.115s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.119s] [ 19%] Built target ament_cmake_python_build_custom_interfaces_egg
+[1.149s] [ 22%] [32m[1mLinking C shared library libcustom_interfaces__rosidl_generator_c.so[0m
+[1.182s] [ 22%] Built target custom_interfaces__rosidl_generator_c
+[1.190s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.193s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.193s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.288s] [ 35%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/srv/polygon_server__type_support.cpp.o[0m
+[1.304s] [ 38%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/srv/detail/polygon_server__type_support.cpp.o[0m
+[1.312s] [ 41%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/srv/detail/dds_fastrtps/polygon_server__type_support.cpp.o[0m
+[1.365s] [ 45%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/srv/polygon_server__type_support.cpp.o[0m
+[1.391s] [ 48%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_c.so[0m
+[1.437s] [ 48%] Built target custom_interfaces__rosidl_typesupport_c
+[1.463s] [ 51%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/srv/detail/polygon_server__type_support.c.o[0m
+[1.465s] [ 54%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_cpp.so[0m
+[1.491s] [ 58%] [32m[1mLinking C shared library libcustom_interfaces__rosidl_typesupport_introspection_c.so[0m
+[1.503s] [ 58%] Built target custom_interfaces__rosidl_typesupport_cpp
+[1.504s] [ 61%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/srv/detail/polygon_server__type_support_c.cpp.o[0m
+[1.521s] [ 61%] Built target custom_interfaces__rosidl_typesupport_introspection_c
+[1.555s] [ 64%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[1.583s] [ 67%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.602s] [ 67%] Built target custom_interfaces__rosidl_typesupport_introspection_cpp
+[1.640s] [ 67%] Built target custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.709s] [ 70%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[1.757s] [ 70%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c
+[1.775s] [ 70%] Built target custom_interfaces
+[1.790s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.003s] [ 74%] Built target custom_interfaces__py
+[2.017s] [ 77%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces/srv/_polygon_server_s.c.o[0m
+[2.079s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/libcustom_interfaces__rosidl_generator_py.so[0m
+[2.107s] [ 80%] Built target custom_interfaces__rosidl_generator_py
+[2.121s] [ 87%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.121s] [ 87%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[2.123s] [ 90%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.184s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.185s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.190s] [100%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.209s] [100%] Built target custom_interfaces__rosidl_typesupport_c__pyext
+[2.214s] [100%] Built target custom_interfaces__rosidl_typesupport_introspection_c__pyext
+[2.220s] [100%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[2.228s] Invoked command in '/home/samiksha/polygon_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samiksha/ros2_ws/install/task_controller:/opt/ros/humble /usr/bin/cmake --build /home/samiksha/polygon_ws/build/custom_interfaces -- -j12 -l12
+[2.236s] Invoking command in '/home/samiksha/polygon_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samiksha/ros2_ws/install/task_controller:/opt/ros/humble /usr/bin/cmake --install /home/samiksha/polygon_ws/build/custom_interfaces
+[2.241s] -- Install configuration: ""
+[2.242s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/custom_interfaces
+[2.242s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[2.242s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[2.242s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.242s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[2.242s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[2.242s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/polygon_server__type_support.h
+[2.242s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/polygon_server__functions.c
+[2.242s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/polygon_server__struct.h
+[2.242s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/polygon_server__functions.h
+[2.242s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/polygon_server.h
+[2.242s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/share/custom_interfaces/environment/library_path.sh
+[2.242s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/share/custom_interfaces/environment/library_path.dsv
+[2.242s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so
+[2.242s] -- Set runtime path of "/home/samiksha/polygon_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so" to ""
+[2.242s] -- Up-to-date: /home/samiksha/polygon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[2.242s] -- Up-to-date: /home/samiksha/polygon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[2.242s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.242s] -- Up-to-date: /home/samiksha/polygon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[2.242s] -- Up-to-date: /home/samiksha/polygon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[2.242s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/polygon_server__rosidl_typesupport_fastrtps_c.h
+[2.243s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.243s] -- Set runtime path of "/home/samiksha/polygon_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[2.243s] -- Up-to-date: /home/samiksha/polygon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[2.243s] -- Up-to-date: /home/samiksha/polygon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[2.243s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.243s] -- Up-to-date: /home/samiksha/polygon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[2.243s] -- Up-to-date: /home/samiksha/polygon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[2.243s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/polygon_server__builder.hpp
+[2.243s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/polygon_server__struct.hpp
+[2.243s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/polygon_server__type_support.hpp
+[2.243s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/polygon_server__traits.hpp
+[2.243s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/polygon_server.hpp
+[2.243s] -- Up-to-date: /home/samiksha/polygon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[2.243s] -- Up-to-date: /home/samiksha/polygon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[2.243s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.243s] -- Up-to-date: /home/samiksha/polygon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[2.243s] -- Up-to-date: /home/samiksha/polygon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[2.243s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/polygon_server__rosidl_typesupport_fastrtps_cpp.hpp
+[2.243s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/dds_fastrtps
+[2.243s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.243s] -- Set runtime path of "/home/samiksha/polygon_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.243s] -- Up-to-date: /home/samiksha/polygon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[2.243s] -- Up-to-date: /home/samiksha/polygon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[2.243s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.243s] -- Up-to-date: /home/samiksha/polygon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[2.243s] -- Up-to-date: /home/samiksha/polygon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[2.243s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/polygon_server__rosidl_typesupport_introspection_c.h
+[2.243s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/polygon_server__type_support.c
+[2.244s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so
+[2.244s] -- Set runtime path of "/home/samiksha/polygon_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[2.244s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so
+[2.244s] -- Set runtime path of "/home/samiksha/polygon_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so" to ""
+[2.244s] -- Up-to-date: /home/samiksha/polygon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[2.244s] -- Up-to-date: /home/samiksha/polygon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[2.244s] -- Up-to-date: /home/samiksha/polygon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[2.244s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/polygon_server__rosidl_typesupport_introspection_cpp.hpp
+[2.244s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/polygon_server__type_support.cpp
+[2.244s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.244s] -- Set runtime path of "/home/samiksha/polygon_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[2.244s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so
+[2.244s] -- Set runtime path of "/home/samiksha/polygon_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so" to ""
+[2.244s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.sh
+[2.244s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.dsv
+[2.244s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info
+[2.244s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.244s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[2.244s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.244s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[2.244s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces
+[2.244s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/libcustom_interfaces__rosidl_generator_py.so
+[2.245s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[2.245s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.245s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.245s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c
+[2.245s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv
+[2.245s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_polygon_server.py
+[2.245s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_polygon_server_s.c
+[2.245s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/__init__.py
+[2.245s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/__init__.py
+[2.245s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.245s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.268s] Listing '/home/samiksha/polygon_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces'...
+[2.269s] Compiling '/home/samiksha/polygon_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/__init__.py'...
+[2.269s] Listing '/home/samiksha/polygon_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv'...
+[2.269s] Compiling '/home/samiksha/polygon_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/__init__.py'...
+[2.269s] Compiling '/home/samiksha/polygon_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_polygon_server.py'...
+[2.272s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.272s] -- Set runtime path of "/home/samiksha/polygon_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.272s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.272s] -- Set runtime path of "/home/samiksha/polygon_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.272s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.272s] -- Set runtime path of "/home/samiksha/polygon_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.272s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so
+[2.272s] -- Set runtime path of "/home/samiksha/polygon_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so" to ""
+[2.272s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/share/custom_interfaces/srv/PolygonServer.idl
+[2.272s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/share/custom_interfaces/srv/PolygonServer.srv
+[2.272s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/share/custom_interfaces/srv/PolygonServer_Request.msg
+[2.272s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/share/custom_interfaces/srv/PolygonServer_Response.msg
+[2.272s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/share/ament_index/resource_index/package_run_dependencies/custom_interfaces
+[2.272s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/share/ament_index/resource_index/parent_prefix_path/custom_interfaces
+[2.272s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.sh
+[2.272s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.dsv
+[2.272s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/share/custom_interfaces/environment/path.sh
+[2.273s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/share/custom_interfaces/environment/path.dsv
+[2.273s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/share/custom_interfaces/local_setup.bash
+[2.273s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/share/custom_interfaces/local_setup.sh
+[2.273s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/share/custom_interfaces/local_setup.zsh
+[2.273s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/share/custom_interfaces/local_setup.dsv
+[2.273s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/share/custom_interfaces/package.dsv
+[2.273s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/share/ament_index/resource_index/packages/custom_interfaces
+[2.273s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport.cmake
+[2.273s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport-noconfig.cmake
+[2.273s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[2.273s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.273s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cppExport.cmake
+[2.273s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.273s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.273s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[2.273s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.273s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport.cmake
+[2.273s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[2.273s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[2.273s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.274s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport.cmake
+[2.274s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[2.274s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport.cmake
+[2.274s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[2.274s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.274s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.274s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.274s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.274s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.274s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.274s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.274s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig.cmake
+[2.274s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig-version.cmake
+[2.274s] -- Installing: /home/samiksha/polygon_ws/install/custom_interfaces/share/custom_interfaces/package.xml
+[2.276s] Invoked command in '/home/samiksha/polygon_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samiksha/ros2_ws/install/task_controller:/opt/ros/humble /usr/bin/cmake --install /home/samiksha/polygon_ws/build/custom_interfaces

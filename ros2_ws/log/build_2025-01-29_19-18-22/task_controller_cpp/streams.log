@@ -1,0 +1,36 @@
+[0.340s] Invoking command in '/home/samiksha/ros2_ws/build/task_controller_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samiksha/ros2_ws/install/task_controller:/opt/ros/humble /usr/bin/cmake --build /home/samiksha/ros2_ws/build/task_controller_cpp -- -j12 -l12
+[0.392s] [35m[1mConsolidate compiler generated dependencies of target chatNode1[0m
+[0.397s] [35m[1mConsolidate compiler generated dependencies of target chatNode2[0m
+[0.421s] [ 33%] Built target listener
+[0.421s] [ 33%] Built target chatNode1
+[0.424s] [ 50%] Built target server_doc
+[0.426s] [ 66%] Built target client_doc
+[0.434s] [ 83%] Built target talker
+[0.435s] [100%] Built target chatNode2
+[0.459s] Invoked command in '/home/samiksha/ros2_ws/build/task_controller_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samiksha/ros2_ws/install/task_controller:/opt/ros/humble /usr/bin/cmake --build /home/samiksha/ros2_ws/build/task_controller_cpp -- -j12 -l12
+[0.473s] Invoking command in '/home/samiksha/ros2_ws/build/task_controller_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samiksha/ros2_ws/install/task_controller:/opt/ros/humble /usr/bin/cmake --install /home/samiksha/ros2_ws/build/task_controller_cpp
+[0.487s] -- Install configuration: ""
+[0.487s] -- Up-to-date: /home/samiksha/ros2_ws/install/task_controller_cpp/lib/task_controller_cpp/talker
+[0.488s] -- Up-to-date: /home/samiksha/ros2_ws/install/task_controller_cpp/lib/task_controller_cpp/listener
+[0.489s] -- Up-to-date: /home/samiksha/ros2_ws/install/task_controller_cpp/lib/task_controller_cpp/server_doc
+[0.489s] -- Up-to-date: /home/samiksha/ros2_ws/install/task_controller_cpp/lib/task_controller_cpp/client_doc
+[0.490s] -- Installing: /home/samiksha/ros2_ws/install/task_controller_cpp/lib/task_controller_cpp/chatNode1
+[0.495s] -- Set runtime path of "/home/samiksha/ros2_ws/install/task_controller_cpp/lib/task_controller_cpp/chatNode1" to ""
+[0.496s] -- Installing: /home/samiksha/ros2_ws/install/task_controller_cpp/lib/task_controller_cpp/chatNode2
+[0.500s] -- Set runtime path of "/home/samiksha/ros2_ws/install/task_controller_cpp/lib/task_controller_cpp/chatNode2" to ""
+[0.501s] -- Up-to-date: /home/samiksha/ros2_ws/install/task_controller_cpp/share/ament_index/resource_index/package_run_dependencies/task_controller_cpp
+[0.501s] -- Up-to-date: /home/samiksha/ros2_ws/install/task_controller_cpp/share/ament_index/resource_index/parent_prefix_path/task_controller_cpp
+[0.501s] -- Up-to-date: /home/samiksha/ros2_ws/install/task_controller_cpp/share/task_controller_cpp/environment/ament_prefix_path.sh
+[0.501s] -- Up-to-date: /home/samiksha/ros2_ws/install/task_controller_cpp/share/task_controller_cpp/environment/ament_prefix_path.dsv
+[0.501s] -- Up-to-date: /home/samiksha/ros2_ws/install/task_controller_cpp/share/task_controller_cpp/environment/path.sh
+[0.501s] -- Up-to-date: /home/samiksha/ros2_ws/install/task_controller_cpp/share/task_controller_cpp/environment/path.dsv
+[0.502s] -- Up-to-date: /home/samiksha/ros2_ws/install/task_controller_cpp/share/task_controller_cpp/local_setup.bash
+[0.502s] -- Up-to-date: /home/samiksha/ros2_ws/install/task_controller_cpp/share/task_controller_cpp/local_setup.sh
+[0.502s] -- Up-to-date: /home/samiksha/ros2_ws/install/task_controller_cpp/share/task_controller_cpp/local_setup.zsh
+[0.502s] -- Up-to-date: /home/samiksha/ros2_ws/install/task_controller_cpp/share/task_controller_cpp/local_setup.dsv
+[0.502s] -- Installing: /home/samiksha/ros2_ws/install/task_controller_cpp/share/task_controller_cpp/package.dsv
+[0.503s] -- Up-to-date: /home/samiksha/ros2_ws/install/task_controller_cpp/share/ament_index/resource_index/packages/task_controller_cpp
+[0.503s] -- Up-to-date: /home/samiksha/ros2_ws/install/task_controller_cpp/share/task_controller_cpp/cmake/task_controller_cppConfig.cmake
+[0.503s] -- Up-to-date: /home/samiksha/ros2_ws/install/task_controller_cpp/share/task_controller_cpp/cmake/task_controller_cppConfig-version.cmake
+[0.503s] -- Up-to-date: /home/samiksha/ros2_ws/install/task_controller_cpp/share/task_controller_cpp/package.xml
+[0.511s] Invoked command in '/home/samiksha/ros2_ws/build/task_controller_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samiksha/ros2_ws/install/task_controller:/opt/ros/humble /usr/bin/cmake --install /home/samiksha/ros2_ws/build/task_controller_cpp

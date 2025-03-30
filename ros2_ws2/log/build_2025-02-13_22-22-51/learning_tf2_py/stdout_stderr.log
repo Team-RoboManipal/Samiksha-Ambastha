@@ -1,0 +1,12 @@
+running egg_info
+writing manifest file '../../build/learning_tf2_py/learning_tf2_py.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/samiksha/ros2_ws2/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/learning_tf2_py/learning_tf2_py.egg-info to /home/samiksha/ros2_ws2/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/samiksha/ros2_ws2/build/learning_tf2_py/install.log'

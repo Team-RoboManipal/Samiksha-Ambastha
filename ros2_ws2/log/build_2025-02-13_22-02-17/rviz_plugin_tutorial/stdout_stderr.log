@@ -1,0 +1,8 @@
+-- Configuring incomplete, errors occurred!
+See also "/home/samiksha/ros2_ws2/build/rviz_plugin_tutorial/CMakeFiles/CMakeOutput.log".
+[31mCMake Error at CMakeLists.txt:6:
+  Parse error.  Expected "(", got identifier with text
+  "rviz_plugin_tutorial".
+
+[0m
+gmake: *** [Makefile:747: cmake_check_build_system] Error 1

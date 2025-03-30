@@ -1,0 +1,5 @@
+-I/home/samiksha/ros2_ws2/src/rviz_panel_tutorial
+-I/home/samiksha/ros2_ws2/build/rviz_panel_tutorial
+-o
+/home/samiksha/ros2_ws2/build/rviz_panel_tutorial/include/rviz_panel_tutorial/moc_demo_panel.cpp
+/home/samiksha/ros2_ws2/src/rviz_panel_tutorial/include/rviz_panel_tutorial/demo_panel.hpp

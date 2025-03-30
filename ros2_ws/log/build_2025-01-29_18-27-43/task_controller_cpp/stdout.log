@@ -1,0 +1,14 @@
+[35m[1mConsolidate compiler generated dependencies of target chatNode2[0m
+[35m[1mConsolidate compiler generated dependencies of target listener[0m
+[35m[1mConsolidate compiler generated dependencies of target server_doc[0m
+[35m[1mConsolidate compiler generated dependencies of target talker[0m
+[35m[1mConsolidate compiler generated dependencies of target client_doc[0m
+[35m[1mConsolidate compiler generated dependencies of target chatNode1[0m
+[  8%] [32mBuilding CXX object CMakeFiles/chatNode1.dir/src/chat_first.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/chatNode2.dir/src/chat_second.cpp.o[0m
+[ 33%] Built target listener
+[ 50%] Built target client_doc
+[ 66%] Built target server_doc
+[ 83%] Built target talker
+[ 91%] [32m[1mLinking CXX executable chatNode1[0m
+[ 91%] Built target chatNode1

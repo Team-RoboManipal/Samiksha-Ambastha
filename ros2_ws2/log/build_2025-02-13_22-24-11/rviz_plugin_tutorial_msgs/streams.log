@@ -1,0 +1,262 @@
+[0.568s] Invoking command in '/home/samiksha/ros2_ws2/build/rviz_plugin_tutorial_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samiksha/ros2_ws/install/task_controller:/home/samiksha/ros2_ws2/install/robo_descp:/home/samiksha/ros2_ws2/install/learning_tf2_py:/home/samiksha/ros2_ws2/install/launch_tutorial:/opt/ros/humble /usr/bin/cmake --build /home/samiksha/ros2_ws2/build/rviz_plugin_tutorial_msgs -- -j12 -l12
+[0.596s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.714s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[0.730s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.732s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.735s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.741s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.749s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.764s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.768s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.770s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[0.780s] -- Found rviz_common: 11.2.14 (/opt/ros/humble/share/rviz_common/cmake)
+[0.787s] -- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[0.789s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[0.790s] -- Found OGRE
+[0.790s] --   static     : OFF
+[0.790s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[0.790s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[0.790s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[0.790s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[0.790s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[0.790s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[0.790s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[0.790s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[0.791s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[0.791s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[0.791s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[0.850s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[0.878s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.879s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.892s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.900s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.912s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.920s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.930s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.973s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.502s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.605s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.630s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.648s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.648s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.648s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.667s] -- Configuring done
+[1.675s] [33mCMake Warning (dev) in CMakeLists.txt:
+[1.675s]   Policy CMP0071 is not set: Let AUTOMOC and AUTOUIC process GENERATED files.
+[1.676s]   Run "cmake --help-policy CMP0071" for policy details.  Use the cmake_policy
+[1.676s]   command to set the policy and suppress this warning.
+[1.676s] 
+[1.676s]   For compatibility, CMake is excluding the GENERATED source file(s):
+[1.676s] 
+[1.676s]     "/home/samiksha/ros2_ws2/build/rviz_plugin_tutorial_msgs/rosidl_generator_c/rviz_plugin_tutorial_msgs/msg/point2_d.h"
+[1.676s]     "/home/samiksha/ros2_ws2/build/rviz_plugin_tutorial_msgs/rosidl_generator_c/rviz_plugin_tutorial_msgs/msg/detail/point2_d__functions.h"
+[1.676s]     "/home/samiksha/ros2_ws2/build/rviz_plugin_tutorial_msgs/rosidl_generator_c/rviz_plugin_tutorial_msgs/msg/detail/point2_d__struct.h"
+[1.676s]     "/home/samiksha/ros2_ws2/build/rviz_plugin_tutorial_msgs/rosidl_generator_c/rviz_plugin_tutorial_msgs/msg/detail/point2_d__type_support.h"
+[1.676s]     "/home/samiksha/ros2_ws2/build/rviz_plugin_tutorial_msgs/rosidl_generator_c/rviz_plugin_tutorial_msgs/msg/detail/point2_d__functions.c"
+[1.676s] 
+[1.676s]   from processing by AUTOMOC.  If any of the files should be processed, set
+[1.677s]   CMP0071 to NEW.  If any of the files should not be processed, explicitly
+[1.677s]   exclude them by setting the source file property SKIP_AUTOMOC:
+[1.677s] 
+[1.677s]     set_property(SOURCE file.h PROPERTY SKIP_AUTOMOC ON)
+[1.677s] 
+[1.677s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.677s] [0m
+[1.677s] [33mCMake Warning (dev) in CMakeLists.txt:
+[1.677s]   Policy CMP0071 is not set: Let AUTOMOC and AUTOUIC process GENERATED files.
+[1.677s]   Run "cmake --help-policy CMP0071" for policy details.  Use the cmake_policy
+[1.677s]   command to set the policy and suppress this warning.
+[1.678s] 
+[1.678s]   For compatibility, CMake is excluding the GENERATED source file(s):
+[1.678s] 
+[1.678s]     "/home/samiksha/ros2_ws2/build/rviz_plugin_tutorial_msgs/rosidl_typesupport_fastrtps_c/rviz_plugin_tutorial_msgs/msg/detail/point2_d__rosidl_typesupport_fastrtps_c.h"
+[1.678s]     "/home/samiksha/ros2_ws2/build/rviz_plugin_tutorial_msgs/rosidl_typesupport_fastrtps_c/rviz_plugin_tutorial_msgs/msg/detail/point2_d__type_support_c.cpp"
+[1.678s] 
+[1.678s]   from processing by AUTOMOC.  If any of the files should be processed, set
+[1.678s]   CMP0071 to NEW.  If any of the files should not be processed, explicitly
+[1.678s]   exclude them by setting the source file property SKIP_AUTOMOC:
+[1.678s] 
+[1.678s]     set_property(SOURCE file.h PROPERTY SKIP_AUTOMOC ON)
+[1.678s] 
+[1.678s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.678s] [0m
+[1.678s] [33mCMake Warning (dev) in CMakeLists.txt:
+[1.678s]   Policy CMP0071 is not set: Let AUTOMOC and AUTOUIC process GENERATED files.
+[1.678s]   Run "cmake --help-policy CMP0071" for policy details.  Use the cmake_policy
+[1.679s]   command to set the policy and suppress this warning.
+[1.679s] 
+[1.679s]   For compatibility, CMake is excluding the GENERATED source file(s):
+[1.679s] 
+[1.679s]     "/home/samiksha/ros2_ws2/build/rviz_plugin_tutorial_msgs/rosidl_typesupport_fastrtps_cpp/rviz_plugin_tutorial_msgs/msg/detail/dds_fastrtps/point2_d__type_support.cpp"
+[1.679s]     "/home/samiksha/ros2_ws2/build/rviz_plugin_tutorial_msgs/rosidl_typesupport_fastrtps_cpp/rviz_plugin_tutorial_msgs/msg/detail/point2_d__rosidl_typesupport_fastrtps_cpp.hpp"
+[1.679s] 
+[1.679s]   from processing by AUTOMOC.  If any of the files should be processed, set
+[1.679s]   CMP0071 to NEW.  If any of the files should not be processed, explicitly
+[1.679s]   exclude them by setting the source file property SKIP_AUTOMOC:
+[1.679s] 
+[1.679s]     set_property(SOURCE file.h PROPERTY SKIP_AUTOMOC ON)
+[1.679s] 
+[1.679s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.679s] [0m
+[1.680s] [33mCMake Warning (dev) in CMakeLists.txt:
+[1.680s]   Policy CMP0071 is not set: Let AUTOMOC and AUTOUIC process GENERATED files.
+[1.680s]   Run "cmake --help-policy CMP0071" for policy details.  Use the cmake_policy
+[1.680s]   command to set the policy and suppress this warning.
+[1.680s] 
+[1.680s]   For compatibility, CMake is excluding the GENERATED source file(s):
+[1.680s] 
+[1.680s]     "/home/samiksha/ros2_ws2/build/rviz_plugin_tutorial_msgs/rosidl_typesupport_introspection_c/rviz_plugin_tutorial_msgs/msg/detail/point2_d__rosidl_typesupport_introspection_c.h"
+[1.680s]     "/home/samiksha/ros2_ws2/build/rviz_plugin_tutorial_msgs/rosidl_typesupport_introspection_c/rviz_plugin_tutorial_msgs/msg/detail/point2_d__type_support.c"
+[1.680s] 
+[1.680s]   from processing by AUTOMOC.  If any of the files should be processed, set
+[1.680s]   CMP0071 to NEW.  If any of the files should not be processed, explicitly
+[1.680s]   exclude them by setting the source file property SKIP_AUTOMOC:
+[1.680s] 
+[1.680s]     set_property(SOURCE file.h PROPERTY SKIP_AUTOMOC ON)
+[1.680s] 
+[1.680s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.680s] [0m
+[1.680s] [33mCMake Warning (dev) in CMakeLists.txt:
+[1.680s]   Policy CMP0071 is not set: Let AUTOMOC and AUTOUIC process GENERATED files.
+[1.680s]   Run "cmake --help-policy CMP0071" for policy details.  Use the cmake_policy
+[1.680s]   command to set the policy and suppress this warning.
+[1.680s] 
+[1.680s]   For compatibility, CMake is excluding the GENERATED source file(s):
+[1.680s] 
+[1.680s]     "/home/samiksha/ros2_ws2/build/rviz_plugin_tutorial_msgs/rosidl_typesupport_c/rviz_plugin_tutorial_msgs/msg/point2_d__type_support.cpp"
+[1.680s] 
+[1.680s]   from processing by AUTOMOC.  If any of the files should be processed, set
+[1.680s]   CMP0071 to NEW.  If any of the files should not be processed, explicitly
+[1.680s]   exclude them by setting the source file property SKIP_AUTOMOC:
+[1.680s] 
+[1.680s]     set_property(SOURCE file.h PROPERTY SKIP_AUTOMOC ON)
+[1.680s] 
+[1.680s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.680s] [0m
+[1.680s] [33mCMake Warning (dev) in CMakeLists.txt:
+[1.680s]   Policy CMP0071 is not set: Let AUTOMOC and AUTOUIC process GENERATED files.
+[1.680s]   Run "cmake --help-policy CMP0071" for policy details.  Use the cmake_policy
+[1.681s]   command to set the policy and suppress this warning.
+[1.681s] 
+[1.681s]   For compatibility, CMake is excluding the GENERATED source file(s):
+[1.681s] 
+[1.681s]     "/home/samiksha/ros2_ws2/build/rviz_plugin_tutorial_msgs/rosidl_typesupport_introspection_cpp/rviz_plugin_tutorial_msgs/msg/detail/point2_d__rosidl_typesupport_introspection_cpp.hpp"
+[1.681s]     "/home/samiksha/ros2_ws2/build/rviz_plugin_tutorial_msgs/rosidl_typesupport_introspection_cpp/rviz_plugin_tutorial_msgs/msg/detail/point2_d__type_support.cpp"
+[1.681s] 
+[1.681s]   from processing by AUTOMOC.  If any of the files should be processed, set
+[1.681s]   CMP0071 to NEW.  If any of the files should not be processed, explicitly
+[1.681s]   exclude them by setting the source file property SKIP_AUTOMOC:
+[1.681s] 
+[1.681s]     set_property(SOURCE file.h PROPERTY SKIP_AUTOMOC ON)
+[1.681s] 
+[1.681s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.681s] [0m
+[1.681s] [33mCMake Warning (dev) in CMakeLists.txt:
+[1.681s]   Policy CMP0071 is not set: Let AUTOMOC and AUTOUIC process GENERATED files.
+[1.681s]   Run "cmake --help-policy CMP0071" for policy details.  Use the cmake_policy
+[1.681s]   command to set the policy and suppress this warning.
+[1.681s] 
+[1.681s]   For compatibility, CMake is excluding the GENERATED source file(s):
+[1.681s] 
+[1.681s]     "/home/samiksha/ros2_ws2/build/rviz_plugin_tutorial_msgs/rosidl_typesupport_cpp/rviz_plugin_tutorial_msgs/msg/point2_d__type_support.cpp"
+[1.681s] 
+[1.681s]   from processing by AUTOMOC.  If any of the files should be processed, set
+[1.681s]   CMP0071 to NEW.  If any of the files should not be processed, explicitly
+[1.681s]   exclude them by setting the source file property SKIP_AUTOMOC:
+[1.681s] 
+[1.681s]     set_property(SOURCE file.h PROPERTY SKIP_AUTOMOC ON)
+[1.681s] 
+[1.681s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.681s] [0m
+[1.681s] [33mCMake Warning (dev) in CMakeLists.txt:
+[1.681s]   Policy CMP0071 is not set: Let AUTOMOC and AUTOUIC process GENERATED files.
+[1.681s]   Run "cmake --help-policy CMP0071" for policy details.  Use the cmake_policy
+[1.681s]   command to set the policy and suppress this warning.
+[1.681s] 
+[1.681s]   For compatibility, CMake is excluding the GENERATED source file(s):
+[1.681s] 
+[1.681s]     "/home/samiksha/ros2_ws2/build/rviz_plugin_tutorial_msgs/rosidl_generator_py/rviz_plugin_tutorial_msgs/msg/_point2_d_s.c"
+[1.681s] 
+[1.681s]   from processing by AUTOMOC.  If any of the files should be processed, set
+[1.681s]   CMP0071 to NEW.  If any of the files should not be processed, explicitly
+[1.681s]   exclude them by setting the source file property SKIP_AUTOMOC:
+[1.682s] 
+[1.682s]     set_property(SOURCE file.h PROPERTY SKIP_AUTOMOC ON)
+[1.682s] 
+[1.682s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.682s] [0m
+[1.682s] [33mCMake Warning (dev) in CMakeLists.txt:
+[1.682s]   Policy CMP0071 is not set: Let AUTOMOC and AUTOUIC process GENERATED files.
+[1.682s]   Run "cmake --help-policy CMP0071" for policy details.  Use the cmake_policy
+[1.682s]   command to set the policy and suppress this warning.
+[1.682s] 
+[1.682s]   For compatibility, CMake is excluding the GENERATED source file(s):
+[1.682s] 
+[1.682s]     "/home/samiksha/ros2_ws2/build/rviz_plugin_tutorial_msgs/rosidl_generator_py/rviz_plugin_tutorial_msgs/_rviz_plugin_tutorial_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
+[1.682s] 
+[1.682s]   from processing by AUTOMOC.  If any of the files should be processed, set
+[1.682s]   CMP0071 to NEW.  If any of the files should not be processed, explicitly
+[1.682s]   exclude them by setting the source file property SKIP_AUTOMOC:
+[1.682s] 
+[1.682s]     set_property(SOURCE file.h PROPERTY SKIP_AUTOMOC ON)
+[1.682s] 
+[1.682s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.682s] [0m
+[1.682s] [33mCMake Warning (dev) in CMakeLists.txt:
+[1.682s]   Policy CMP0071 is not set: Let AUTOMOC and AUTOUIC process GENERATED files.
+[1.682s]   Run "cmake --help-policy CMP0071" for policy details.  Use the cmake_policy
+[1.682s]   command to set the policy and suppress this warning.
+[1.682s] 
+[1.682s]   For compatibility, CMake is excluding the GENERATED source file(s):
+[1.682s] 
+[1.682s]     "/home/samiksha/ros2_ws2/build/rviz_plugin_tutorial_msgs/rosidl_generator_py/rviz_plugin_tutorial_msgs/_rviz_plugin_tutorial_msgs_s.ep.rosidl_typesupport_introspection_c.c"
+[1.682s] 
+[1.682s]   from processing by AUTOMOC.  If any of the files should be processed, set
+[1.682s]   CMP0071 to NEW.  If any of the files should not be processed, explicitly
+[1.682s]   exclude them by setting the source file property SKIP_AUTOMOC:
+[1.682s] 
+[1.682s]     set_property(SOURCE file.h PROPERTY SKIP_AUTOMOC ON)
+[1.682s] 
+[1.682s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.682s] [0m
+[1.682s] [33mCMake Warning (dev) in CMakeLists.txt:
+[1.682s]   Policy CMP0071 is not set: Let AUTOMOC and AUTOUIC process GENERATED files.
+[1.683s]   Run "cmake --help-policy CMP0071" for policy details.  Use the cmake_policy
+[1.683s]   command to set the policy and suppress this warning.
+[1.683s] 
+[1.683s]   For compatibility, CMake is excluding the GENERATED source file(s):
+[1.683s] 
+[1.683s]     "/home/samiksha/ros2_ws2/build/rviz_plugin_tutorial_msgs/rosidl_generator_py/rviz_plugin_tutorial_msgs/_rviz_plugin_tutorial_msgs_s.ep.rosidl_typesupport_c.c"
+[1.683s] 
+[1.683s]   from processing by AUTOMOC.  If any of the files should be processed, set
+[1.683s]   CMP0071 to NEW.  If any of the files should not be processed, explicitly
+[1.683s]   exclude them by setting the source file property SKIP_AUTOMOC:
+[1.683s] 
+[1.683s]     set_property(SOURCE file.h PROPERTY SKIP_AUTOMOC ON)
+[1.683s] 
+[1.683s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.683s] [0m
+[1.712s] -- Generating done
+[1.722s] -- Build files have been written to: /home/samiksha/ros2_ws2/build/rviz_plugin_tutorial_msgs
+[1.750s] [  1%] [34m[1mAutomatic MOC for target rviz_plugin_tutorial_msgs__rosidl_generator_c[0m
+[1.751s] [  5%] [34m[1mAutomatic MOC for target point_display[0m
+[1.751s] [  5%] Built target rviz_plugin_tutorial_msgs__cpp
+[1.758s] [  5%] Built target ament_cmake_python_copy_rviz_plugin_tutorial_msgs
+[1.764s] [  6%] [34m[1mAutomatic MOC for target rviz_plugin_tutorial_msgs__rosidl_typesupport_cpp[0m
+[1.766s] [  8%] [34m[1mAutomatic MOC for target rviz_plugin_tutorial_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[1.768s] [ 10%] [34m[1mAutomatic MOC for target rviz_plugin_tutorial_msgs__rosidl_typesupport_introspection_cpp[0m
+[1.768s] [ 10%] Built target rviz_plugin_tutorial_msgs__rosidl_generator_c_autogen
+[1.773s] [ 10%] Built target point_display_autogen
+[1.774s] gmake[2]: *** No rule to make target '/home/samiksha/ros2_ws2/src/rviz_plugin_tutorial_msgs/include/rviz_plugin_tutorial/point_display.hpp', needed by 'include/rviz_plugin_tutorial/moc_point_display.cpp'.  Stop.
+[1.774s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/point_display.dir/all] Error 2
+[1.775s] gmake[1]: *** Waiting for unfinished jobs....
+[1.778s] [35m[1mConsolidate compiler generated dependencies of target rviz_plugin_tutorial_msgs__rosidl_generator_c[0m
+[1.782s] [ 10%] Built target rviz_plugin_tutorial_msgs__rosidl_typesupport_fastrtps_cpp_autogen
+[1.782s] [ 10%] Built target rviz_plugin_tutorial_msgs__rosidl_typesupport_introspection_cpp_autogen
+[1.782s] [ 10%] Built target rviz_plugin_tutorial_msgs__rosidl_typesupport_cpp_autogen
+[1.787s] [ 16%] Built target rviz_plugin_tutorial_msgs__rosidl_generator_c
+[1.919s] running egg_info
+[1.921s] writing manifest file 'rviz_plugin_tutorial_msgs.egg-info/SOURCES.txt'
+[1.946s] [ 16%] Built target ament_cmake_python_build_rviz_plugin_tutorial_msgs_egg
+[1.947s] gmake: *** [Makefile:146: all] Error 2
+[1.948s] Invoked command in '/home/samiksha/ros2_ws2/build/rviz_plugin_tutorial_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samiksha/ros2_ws/install/task_controller:/home/samiksha/ros2_ws2/install/robo_descp:/home/samiksha/ros2_ws2/install/learning_tf2_py:/home/samiksha/ros2_ws2/install/launch_tutorial:/opt/ros/humble /usr/bin/cmake --build /home/samiksha/ros2_ws2/build/rviz_plugin_tutorial_msgs -- -j12 -l12

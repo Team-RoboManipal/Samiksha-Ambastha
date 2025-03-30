@@ -1,0 +1,51 @@
+[0.543s] Invoking command in '/home/samiksha/ros2_ws2/build/rviz_plugin_tutorial_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samiksha/ros2_ws/install/task_controller:/home/samiksha/ros2_ws2/install/robo_descp:/home/samiksha/ros2_ws2/install/learning_tf2_py:/home/samiksha/ros2_ws2/install/launch_tutorial:/opt/ros/humble /usr/bin/cmake --build /home/samiksha/ros2_ws2/build/rviz_plugin_tutorial_msgs -- -j12 -l12
+[0.565s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.670s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[0.685s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.687s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.690s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.697s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.705s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.721s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.725s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.727s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[0.737s] -- Found rviz_common: 11.2.14 (/opt/ros/humble/share/rviz_common/cmake)
+[0.743s] -- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[0.746s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[0.746s] -- Found OGRE
+[0.746s] --   static     : OFF
+[0.747s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[0.747s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[0.747s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[0.747s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[0.747s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[0.747s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[0.747s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[0.747s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[0.747s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[0.747s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[0.747s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[0.805s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[0.836s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.836s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.849s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.857s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.870s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.878s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.887s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.931s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.986s] -- Found rviz_plugin_tutorial_msgs: 0.0.0 (/home/samiksha/ros2_ws2/install/rviz_plugin_tutorial_msgs/share/rviz_plugin_tutorial_msgs/cmake)
+[1.097s] [31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:213 (add_custom_target):
+[1.098s]   add_custom_target cannot create target "rviz_plugin_tutorial_msgs" because
+[1.098s]   another target with the same name already exists.  The existing target is a
+[1.098s]   shared library created in source directory
+[1.098s]   "/home/samiksha/ros2_ws2/src/rviz_plugin_tutorial_msgs".  See documentation
+[1.098s]   for policy CMP0002 for more details.
+[1.098s] Call Stack (most recent call first):
+[1.098s]   CMakeLists.txt:68 (rosidl_generate_interfaces)
+[1.098s] 
+[1.098s] [0m
+[1.143s] -- Configuring incomplete, errors occurred!
+[1.143s] See also "/home/samiksha/ros2_ws2/build/rviz_plugin_tutorial_msgs/CMakeFiles/CMakeOutput.log".
+[1.150s] gmake: *** [Makefile:1307: cmake_check_build_system] Error 1
+[1.152s] Invoked command in '/home/samiksha/ros2_ws2/build/rviz_plugin_tutorial_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samiksha/ros2_ws/install/task_controller:/home/samiksha/ros2_ws2/install/robo_descp:/home/samiksha/ros2_ws2/install/learning_tf2_py:/home/samiksha/ros2_ws2/install/launch_tutorial:/opt/ros/humble /usr/bin/cmake --build /home/samiksha/ros2_ws2/build/rviz_plugin_tutorial_msgs -- -j12 -l12

@@ -1,0 +1,9 @@
+[0.206s] Invoking command in '/home/samiksha/ros2_ws2/build/learning_tf2_cpp': /usr/bin/cmake --build /home/samiksha/ros2_ws2/build/learning_tf2_cpp -- -j12 -l12
+[0.632s] -- Configuring incomplete, errors occurred!
+[0.632s] See also "/home/samiksha/ros2_ws2/build/learning_tf2_cpp/CMakeFiles/CMakeOutput.log".
+[0.632s] [31mCMake Error at CMakeLists.txt:81 (if):
+[0.632s]   Flow control statements are not properly nested.
+[0.632s] 
+[0.632s] [0m
+[0.632s] gmake: *** [Makefile:472: cmake_check_build_system] Error 1
+[0.635s] Invoked command in '/home/samiksha/ros2_ws2/build/learning_tf2_cpp' returned '2': /usr/bin/cmake --build /home/samiksha/ros2_ws2/build/learning_tf2_cpp -- -j12 -l12

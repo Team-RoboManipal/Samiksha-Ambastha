@@ -1,0 +1,42 @@
+[1.041s] Invoking command in '/home/samiksha/ros2_ws2/src/launch_tutorial': PYTHONPATH=/home/samiksha/ros2_ws2/build/launch_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/samiksha/ros2_ws2/install/launch_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/launch_tutorial build --build-base /home/samiksha/ros2_ws2/build/launch_tutorial/build install --record /home/samiksha/ros2_ws2/build/launch_tutorial/install.log --single-version-externally-managed install_data
+[1.309s] running egg_info
+[1.310s] creating ../../build/launch_tutorial/launch_tutorial.egg-info
+[1.310s] writing manifest file '../../build/launch_tutorial/launch_tutorial.egg-info/SOURCES.txt'
+[1.312s] writing manifest file '../../build/launch_tutorial/launch_tutorial.egg-info/SOURCES.txt'
+[1.312s] running build
+[1.312s] running build_py
+[1.312s] creating /home/samiksha/ros2_ws2/build/launch_tutorial/build
+[1.312s] creating /home/samiksha/ros2_ws2/build/launch_tutorial/build/lib
+[1.312s] creating /home/samiksha/ros2_ws2/build/launch_tutorial/build/lib/launch_tutorial
+[1.312s] copying launch_tutorial/__init__.py -> /home/samiksha/ros2_ws2/build/launch_tutorial/build/lib/launch_tutorial
+[1.312s] running install
+[1.314s] running install_lib
+[1.315s] creating /home/samiksha/ros2_ws2/install/launch_tutorial/lib/python3.10/site-packages/launch_tutorial
+[1.315s] copying /home/samiksha/ros2_ws2/build/launch_tutorial/build/lib/launch_tutorial/__init__.py -> /home/samiksha/ros2_ws2/install/launch_tutorial/lib/python3.10/site-packages/launch_tutorial
+[1.315s] byte-compiling /home/samiksha/ros2_ws2/install/launch_tutorial/lib/python3.10/site-packages/launch_tutorial/__init__.py to __init__.cpython-310.pyc
+[1.315s] running install_data
+[1.315s] creating /home/samiksha/ros2_ws2/install/launch_tutorial/share/ament_index
+[1.315s] creating /home/samiksha/ros2_ws2/install/launch_tutorial/share/ament_index/resource_index
+[1.315s] creating /home/samiksha/ros2_ws2/install/launch_tutorial/share/ament_index/resource_index/packages
+[1.316s] copying resource/launch_tutorial -> /home/samiksha/ros2_ws2/install/launch_tutorial/share/ament_index/resource_index/packages
+[1.316s] copying package.xml -> /home/samiksha/ros2_ws2/install/launch_tutorial/share/launch_tutorial
+[1.316s] creating /home/samiksha/ros2_ws2/install/launch_tutorial/share/launch_tutorial/launch
+[1.316s] copying launch/example_substitutions.launch.py -> /home/samiksha/ros2_ws2/install/launch_tutorial/share/launch_tutorial/launch
+[1.316s] copying launch/broadcaster_listener.launch.py -> /home/samiksha/ros2_ws2/install/launch_tutorial/share/launch_tutorial/launch
+[1.316s] copying launch/turtlesim_world_3.launch.py -> /home/samiksha/ros2_ws2/install/launch_tutorial/share/launch_tutorial/launch
+[1.316s] copying launch/turtlesim_world_2.launch.py -> /home/samiksha/ros2_ws2/install/launch_tutorial/share/launch_tutorial/launch
+[1.316s] copying launch/mimic.launch.py -> /home/samiksha/ros2_ws2/install/launch_tutorial/share/launch_tutorial/launch
+[1.316s] copying launch/turtlesim_rviz.launch.py -> /home/samiksha/ros2_ws2/install/launch_tutorial/share/launch_tutorial/launch
+[1.316s] copying launch/example_main.launch.py -> /home/samiksha/ros2_ws2/install/launch_tutorial/share/launch_tutorial/launch
+[1.316s] copying launch/turtlesim_world_1.launch.py -> /home/samiksha/ros2_ws2/install/launch_tutorial/share/launch_tutorial/launch
+[1.316s] copying launch/launch_turtlesim.launch.py -> /home/samiksha/ros2_ws2/install/launch_tutorial/share/launch_tutorial/launch
+[1.316s] copying launch/fixed_broadcaster.launch.py -> /home/samiksha/ros2_ws2/install/launch_tutorial/share/launch_tutorial/launch
+[1.316s] copying launch/example_event_handlers.launch.py -> /home/samiksha/ros2_ws2/install/launch_tutorial/share/launch_tutorial/launch
+[1.316s] creating /home/samiksha/ros2_ws2/install/launch_tutorial/share/launch_tutorial/config
+[1.316s] copying config/turtlesim.yaml -> /home/samiksha/ros2_ws2/install/launch_tutorial/share/launch_tutorial/config
+[1.316s] creating /home/samiksha/ros2_ws2/install/launch_tutorial/share/launch_tutorial/rviz
+[1.316s] running install_egg_info
+[1.318s] Copying ../../build/launch_tutorial/launch_tutorial.egg-info to /home/samiksha/ros2_ws2/install/launch_tutorial/lib/python3.10/site-packages/launch_tutorial-0.0.0-py3.10.egg-info
+[1.318s] running install_scripts
+[1.335s] writing list of installed files to '/home/samiksha/ros2_ws2/build/launch_tutorial/install.log'
+[1.363s] Invoked command in '/home/samiksha/ros2_ws2/src/launch_tutorial' returned '0': PYTHONPATH=/home/samiksha/ros2_ws2/build/launch_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/samiksha/ros2_ws2/install/launch_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/launch_tutorial build --build-base /home/samiksha/ros2_ws2/build/launch_tutorial/build install --record /home/samiksha/ros2_ws2/build/launch_tutorial/install.log --single-version-externally-managed install_data

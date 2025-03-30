@@ -1,0 +1,133 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-48a81ae615f98a67f1f2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "learning_tf2_cpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "fixed_frame_tf2_broadcaster::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fixed_frame_tf2_broadcaster-52cd5489d17b00976fe8.json",
+					"name" : "fixed_frame_tf2_broadcaster",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "learning_tf2_cpp_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-learning_tf2_cpp_uninstall-9390f9d4190939cc037b.json",
+					"name" : "learning_tf2_cpp_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "static_turtle_tf2_broadcaster::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-static_turtle_tf2_broadcaster-faf4a4855b8d7a8e96f0.json",
+					"name" : "static_turtle_tf2_broadcaster",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_tf2_broadcaster::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_tf2_broadcaster-a5c922f57fe8921ac6ae.json",
+					"name" : "turtle_tf2_broadcaster",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_tf2_listener::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_tf2_listener-cd2d1d10e97fe2c1efc4.json",
+					"name" : "turtle_tf2_listener",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_tf2_listener_time::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_tf2_listener_time-a570b28b56768f62de1f.json",
+					"name" : "turtle_tf2_listener_time",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_tf2_listener_travel::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_tf2_listener_travel-0987c3a6dca843847639.json",
+					"name" : "turtle_tf2_listener_travel",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_tf2_message_filter::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_tf2_message_filter-c3bcce10ac50b582bd2e.json",
+					"name" : "turtle_tf2_message_filter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-8a3ccfbbb83a7ca8ac4a.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/samiksha/ros2_ws2/build/learning_tf2_cpp",
+		"source" : "/home/samiksha/ros2_ws2/src/learning_tf2_cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
