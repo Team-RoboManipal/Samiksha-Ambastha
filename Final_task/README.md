@@ -1,10 +1,10 @@
-# Monocular Depth Estimation using PyTorch 🧠📏
+# Monocular Depth Estimation using PyTorch 
 
 A deep learning project that predicts depth maps from single RGB images using a custom encoder-decoder CNN architecture trained on the NYU Depth dataset.
 
 ---
 
-## 🚀 Features
+##  Features
 
 - Custom **Encoder-Decoder CNN (U-Net style)** architecture
 - Skip connections for better spatial detail preservation
@@ -16,7 +16,7 @@ A deep learning project that predicts depth maps from single RGB images using a 
 
 ---
 
-## 🧠 Model Architecture
+##  Model Architecture
 
 - Multi-stage **downsampling (encoder)** with convolution blocks
 - Bottleneck layer for deep feature extraction
@@ -26,7 +26,7 @@ A deep learning project that predicts depth maps from single RGB images using a 
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - Python
 - PyTorch
@@ -37,7 +37,7 @@ A deep learning project that predicts depth maps from single RGB images using a 
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 - **NYU Depth Dataset**
 - Structure:
